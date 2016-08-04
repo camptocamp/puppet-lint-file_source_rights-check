@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-file_source_rights-check'
-  spec.version     = '0.1.0'
+  spec.version     = '0.1.1'
   spec.homepage    = 'https://github.com/puppet-community/puppet-lint-file_source_rights-check'
   spec.license     = 'Apache-2.0'
   spec.author      = 'Camptocamp'
