@@ -56,14 +56,14 @@ file { '/tmp/foo':
 
 #### Disabling the check
 
-To disable this check, you can add `--no-file_source_rights-check` to your puppet-lint command line.
+To disable this check, you can add `--no-source_without_rights-check` to your puppet-lint command line.
 
 ```shell
-$ puppet-lint --no-file_source_rights-check path/to/file.pp
+$ puppet-lint --no-source_without_rights-check path/to/file.pp
 ```
 
 Alternatively, if you’re calling puppet-lint via the Rake task, you should insert the following line to your `Rakefile`.
 
 ```ruby
-PuppetLint.configuration.send('disable_file_source_rights')
+PuppetLint.configuration.send('disable_source_without_rights')
 ```
